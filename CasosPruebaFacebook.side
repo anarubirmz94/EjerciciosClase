@@ -1,0 +1,110 @@
+{
+  "id": "231c72f1-118d-4248-8b1c-1f7a44808e92",
+  "name": "Untitled Project",
+  "url": "",
+  "tests": [{
+    "id": "e9beaff7-eca1-4d8f-a883-931b8d7ff04a",
+    "name": "cpFacebook1",
+    "commands": [{
+      "id": "0a5bf189-fda3-4880-a165-599ffbe5f747",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "value": ""
+    }, {
+      "id": "e1b1db5d-4faa-4851-bf5b-d3b722b4bdfa",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Facebook - Entra o regístrate",
+      "value": ""
+    }, {
+      "id": "10359c56-d6cc-4245-afcb-a9aa6e7f67cb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//input[@id='email']",
+      "value": ""
+    }, {
+      "id": "88062242-e6ea-47ea-9c50-5c712c5db489",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//input[@id='pass']",
+      "value": ""
+    }, {
+      "id": "663abd19-c7ca-4ab8-ad23-24fe5307f166",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='email']",
+      "value": "spawnd20@gmail.com"
+    }, {
+      "id": "fff645f0-28c1-4ffc-a687-7a8f5e7dab79",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='pass']",
+      "value": "123456a!"
+    }, {
+      "id": "6b7d1514-0ff8-4336-b2a9-11a69b949bbb",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='u_0_3']",
+      "value": ""
+    }, {
+      "id": "6381b221-f4e5-4d4d-99b9-c107c8587fd2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//span[@class='_2md']",
+      "value": ""
+    }, {
+      "id": "96e41726-cb79-4f6a-8ebf-a092c391c432",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//input[@class='_1frb']",
+      "value": ""
+    }, {
+      "id": "8480323b-df8c-4420-a7c4-aba6959a3896",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//button[@class='_42ft _4jy0 _4w98 _4jy3 _517h _51sy']",
+      "value": ""
+    }, {
+      "id": "f2794dfd-ccf7-40da-81ae-91d4b728d828",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@class='_1frb']",
+      "value": "DÓNDE IR"
+    }, {
+      "id": "e7107363-45f1-4250-a135-ca8cc0903c7a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//button[@value='1']",
+      "value": ""
+    }, {
+      "id": "0cdcb0d9-df45-4320-9002-a5ad5df9cad5",
+      "comment": "",
+      "command": "assertText",
+      "target": "//div[@class='_52eh _5bcu']",
+      "value": "DÓNDE IR"
+    }, {
+      "id": "f4db9e09-b677-46f3-998b-cd54ac4d53f8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=u_2x_4",
+      "value": "29,15"
+    }, {
+      "id": "daafce11-5aef-499c-957c-2ce99a1e7457",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//button[@id='u_2x_3']",
+      "value": "Te gusta"
+    }]
+  }],
+  "suites": [{
+    "id": "5e4a7952-180f-4510-84c8-1c8f97006794",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e9beaff7-eca1-4d8f-a883-931b8d7ff04a"]
+  }],
+  "urls": [],
+  "plugins": [],
+  "version": "1.0"
+}
